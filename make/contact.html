@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lighthub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-titlebar">
+        <nav>
+            <h2>LIGHTHUB</h2>
+            <div class="menu" id="menu">
+                <i class="fa fa-times" onclick="Hide()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="interest.html">INTEREST</a></li>
+                    <li><a href="">ARTICLES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="Show()"></i>
+        </nav>
+    <h1>Contact Us</h1>
+    </section>
+
+    <!------ javascript ------>
+    <script>
+        var menu = document.getElementById("menu");
+        function Show(){
+            menu.style.right = "0";
+        }
+        function Hide(){
+            menu.style.right = "-200px";
+        }
+    </script>    
+
+    <!------ cobtact us ----->
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7881.568126860775!2d7.567780167841522!3d8.99200747418597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e05fe76796777%3A0x883e8d2c0934cc9a!2s900101%2C%20New%20Karu!5e0!3m2!1sen!2sng!4v1646655390533!5m2!1sen!2sng" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+   <section class="contact_us">
+       <div class="row">
+           <div class="contact_col">
+               <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5> 1 St Lois</h5>
+                    <p>
+                        Angwandoka, New Nyanya, Karu LGA, Nasarawa
+                    </p>
+                </span>
+               </div>
+               <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5> +234 907 480 7227</h5>
+                    <p>
+                        Give us a call today
+                    </p>
+                </span>
+               </div>
+               <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>lightmbadiwe@gmail,con</h5>
+                    <p>
+                        Email us
+                    </p>
+                </span>
+               </div>
+           </div>
+           <div class="contact_col">
+               <form action="">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email"placeholder="Enter Your Email Address" required>
+                <input type="text" placeholder="Enter Your Message" required>
+                <textarea rows="8" placeholder="Message" required></textarea>
+                <button type="submit" class="join-btn">Send Message</button>
+               </form>
+           </div>
+       </div>
+   </section>
+
+    <!------Footer-->
+    <section class="footer">
+        <h5>LIGHTHUB</h5>
+        <p>Ready to be rejuvenated? <br>Just reach out to 
+            us on any of the social meadia platforms</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-whatsapp"></i>
+        </div>
+    </section>
+</body>
+</html>

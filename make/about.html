@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lighthub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-titlebar">
+        <nav>
+            <h2>LIGHTHUB</h2>
+            <div class="menu" id="menu">
+                <i class="fa fa-times" onclick="Hide()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="interest.html">INTEREST</a></li>
+                    <li><a href="">ARTICLES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>                
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="Show()"></i>
+        </nav>
+    <h1>About Us</h1>
+    </section>
+
+    <!------ javascript ------>
+    <script>
+        var menu = document.getElementById("menu");
+        function Show(){
+            menu.style.right = "0";
+        }
+        function Hide(){
+            menu.style.right = "-200px";
+        }
+    </script>    
+
+
+   <!-----About us----->
+    <section class="about-us">
+        <h1>LIGHTHUB</h1>
+        <p>hese issues can include but are not limited 
+            to: genetics, fertility and the environment, 
+            biodiversity, conservation, medical technology 
+            and ethics. ... describing and explaining the 
+            biological basis of diseases not related to genetics, 
+            and the impacts these diseases have on society.</p>
+    </section>
+
+    <!------Footer-->
+    <section class="footer">
+        <h5>LIGHTHUB</h5>
+        <p>Ready to be rejuvenated? <br>Just reach out to 
+            us on any of the social meadia platforms</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-whatsapp"></i>
+        </div>
+    </section>
+</body>
+</html>
